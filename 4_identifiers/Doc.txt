@@ -1,0 +1,17 @@
+Identifier Rules:
+
+1. Allowed Characters: A-Z a-z 0-9 _
+
+2. An identifier can't start with a numeric symbol
+
+3. keywords can't be used as an identifier
+
+4. character length of an identifier has no limit
+
+5. C language is a case sensitive lang.... 
+can diffrentiate between upper-case and lower-case characters
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+convention: constant variable can be written in upper-case...
+
