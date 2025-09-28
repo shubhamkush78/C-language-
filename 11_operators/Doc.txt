@@ -1,0 +1,213 @@
+Arithmetic Operators: (Binary Operator)
+
+    operator         read as
+    --------         --------
+
+       +             addition op.
+
+       -             subtraction op.
+       
+       *             multiplication op.
+       
+       /             division op.
+       
+       %             remainder division op.
+
+usage:  opearnd-1 <arithmetic-operator>  operand-2
+example:  12 + 3
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Relational Operators: (Binary Operator) 
+
+    operator         read as
+    --------         --------
+
+       <             is less than
+       
+       >             is greater than
+       
+       <=            is less than or equal-to 
+       
+       >=            is greater than or equal-to
+
+       ==            equals to (equality operator) 
+       
+       !=            not equals to (inequality operator) 
+
+
+usage:  opearnd-1 <relational-operator>  operand-2
+example:  12 < 3  (12 is leass than 3)
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Logical Operators:  
+
+
+    operator         read as
+    --------         --------
+
+       &&             and (logical and operator)   (Binary Operator)
+
+       ||             or  (logical or operator)    (Binary Operator)
+       
+       !              not (logical not operator)   (Unary Operator) 
+
+    
+usage:  opearnd-1 <logical-and/or-operator>  operand-2
+example:  12 < 3 && 5 > 4  op-1 and op2
+
+usage:  <logical-not-operator>  operand
+example:  !0  not op
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Unary Operators:  
+
+
+    operator         read as
+    --------         --------
+     
+       +            unary plus operator
+       
+       -            unary minus operator
+       
+       ++           increment operator
+       
+       --           decrement operator
+       
+       !            logical negation operator
+       
+       ~            bitwise one's complement operator
+       
+       *            pointer reference operator
+       
+       &            address of operator
+       
+       sizeof       sizeof operator
+       
+       ()           type-casting operator
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Increment/Decremt Operators:  (Unary Operators)
+ 
+
+    operator         read as
+    --------         --------
+
+       ++           Increment Operator
+       
+       --           Decrement Operator
+
+
+usage:  <increment-operator>operand     (pre increment operator)
+example:  ++x (assuming that x is a variable declared in your source code)
+          ++2 //error
+
+usage:  <decrement-operator>operand     (pre decrement operator)    
+example:  --x (assuming that x is a variable declared in your source code)
+          --2 //error
+
+usage:  operand<increment-operator>   (post increment operator)
+example:  x++ (assuming that x is a variable declared in your source code)
+          2++ //error
+
+usage:  operand<decrement-operator>   (post decrement operator)
+example:  x-- (assuming that x is a variable declared in your source code)
+          2-- //error
+        
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Bitwise Operators:  
+ 
+
+    operator         read as
+
+Binary  Operators:
+       <<           left shift bitwise operator
+       
+       >>           right shift bitwise operator
+       
+       &            bitwise and operator
+       
+       |            bitwise or operator
+       
+       ^            bitwise xor(exclusive or) operator
+
+Unary  Operators:       
+       ~            bitwise one's complement operator
+
+
+usage:  opearnd-1 <bitwise-operator>  operand-2
+example:  12 << 3
+
+usage:  <bitwise-one's-complement-operator>  operand
+example:  ~x  (where x is a declared variable)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Conditional Operators:   
+
+    <test-expression> ? <true-result> : <false-result>
+    op1 ? op2 : op3
+
+Example: 2<5 ? "Hi" : "Bye"
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assignment Operators:  
+ 
+
+    operator
+
+(Simple Assignment Operator)
+        =
+
+
+(Compound Assignment Operators)
+        +=
+
+        -=
+
+        *=
+
+        /=
+
+        %=
+
+        &=
+
+        ^=
+
+        |=
+
+        <<=
+
+        >>=
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Comma Operators:  
+ 
+
+    operator
+
+        ,

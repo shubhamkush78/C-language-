@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+    int age;
+    char gender;
+
+    printf("Enter Age: ");
+    scanf("%d", &age);
+
+    fflush(stdin);
+
+    printf("Enter gender(m/f): ");
+    scanf("%c", &gender);
+
+    gender == 'f' 
+        ? age <= 22 ? printf("MB:0 IR:4%%") : age <= 60 ? printf("MB:2000 IR:8%%") : printf("MB:0 IR:12%%")
+        : age <= 22 ? printf("MB:500 IR:2%%") : age <= 60 ? printf("MB:5000 IR:6%%") : printf("MB:2000 IR:11%%");
+
+    return 0;
+}
